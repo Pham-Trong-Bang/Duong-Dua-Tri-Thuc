@@ -1,0 +1,73 @@
+
+body {
+    background-image: url("img/v7-060622-pc-wallpaper-8k.png");
+    background-size: cover;
+    margin: 0;
+}
+header {
+    width: 90%;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header img {
+    width: 160px;
+    height: 100px;
+    margin-top: -3px;
+}
+#container {
+    width: 90%;
+    height: 750px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#danhsach {
+    width: 55%;
+    height: 700px;
+    border-right: solid 1px #ddd;
+}
+#thongke {
+    width: 45%;
+    height: 700px;
+}
+#boxName {
+    width: 100%;
+    height: 659px;
+    overflow:auto;
+}
+.khungten {
+    width: 98%;
+    height: 70px;
+    border-bottom: solid 1px #575757ad;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+#boxName::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+#boxName::-webkit-scrollbar-thumb {
+    width: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+.hoverPoiter {
+    cursor: pointer;
+}
+.diemO {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

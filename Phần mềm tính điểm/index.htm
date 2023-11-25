@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính điểm | Đường Đua Tri Thức</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Tieu de-->
+    <Center><header>
+        <img src="img/snapedit_1700212990424.png" alt="">
+        <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; font-size: 40px;">ĐƯỜNG ĐUA TRI THỨC</h2>
+
+        <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; font-size: 40px;">THPT Thống Linh 10A4 | 2023 - 2024</h2>
+    </header></Center>
+    <!--Phan chinh-->
+    <center><div id="container">
+        <!--Danh sach-->
+        <div id="danhsach">
+            <h2 style=" text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; font-size: 30px; margin: 0; margin-left: 15px; border-bottom: solid 1px #ddd;">Danh sách</h2>
+            <div id="boxName">
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">01</div>
+                    <div style="width: 350px; text-align: left;" id="ten1">Nguyễn Huỳnh An</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o1()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o1()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o1()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo1">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">02</div>
+                    <div style="width: 350px; text-align: left;" id="ten2">Huỳnh Khánh Băng</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o2()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o2()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o2()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo2">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">03</div>
+                    <div style="width: 350px; text-align: left;" id="ten3">Phạm Trọng Bằng</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o3()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o3()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o3()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo3">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">04</div>
+                    <div style="width: 350px; text-align: left;" id="ten4">Phan Thị Kiều Diễm</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o4()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o4()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o4()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo4">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">05</div>
+                    <div style="width: 350px; text-align: left;" id="ten5">Phan Lê Hải Đăng</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o5()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o5()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o5()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo5">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">06</div>
+                    <div style="width: 350px; text-align: left;" id="ten6">Trần Hồng Gấm</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o6()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o6()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o6()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo6">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">07</div>
+                    <div style="width: 350px; text-align: left;" id="ten7">Nguyễn Hoàng Hải</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o7()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o7()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o7()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo7">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">08</div>
+                    <div style="width: 350px; text-align: left;" id="ten8">Nguyễn Võ Ánh Hậu</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o8()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o8()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o8()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo8">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">09</div>
+                    <div style="width: 350px; text-align: left;" id="ten9">Phan Xuân Hiếu</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o9()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o9()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o9()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo9">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">10</div>
+                    <div style="width: 350px; text-align: left;" id="ten10">Trần Thị Diễm Hương</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o10()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o10()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o10()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo10">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">11</div>
+                    <div style="width: 350px; text-align: left;" id="ten11">Trần Thị Huỳnh Lê</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o11()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o11()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o11()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo11">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">12</div>
+                    <div style="width: 350px; text-align: left;" id="ten12">Lê Thị Diễm My</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o12()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o12()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o12()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo12">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">13</div>
+                    <div style="width: 350px; text-align: left;" id="ten13">Đinh Diệp Bảo Ngọc</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o13()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o13()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o13()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo13">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">14</div>
+                    <div style="width: 350px; text-align: left;" id="ten14">Huỳnh Thị Bảo Ngọc</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o14()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o14()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o14()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo14">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">15</div>
+                    <div style="width: 350px; text-align: left;" id="ten15">Dương Hồng Nhân</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o15()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o15()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o15()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo15">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">16</div>
+                    <div style="width: 350px; text-align: left;" id="ten16">Nguyễn Văn Nhờ</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o16()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o16()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o16()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo16">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">17</div>
+                    <div style="width: 350px; text-align: left;" id="ten17">Nguyễn Thị Huỳnh Như</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o17()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o17()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o17()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo17">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">18</div>
+                    <div style="width: 350px; text-align: left;" id="ten18">Huỳnh Tấn Phát</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o18()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o18()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o18()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo18">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">19</div>
+                    <div style="width: 350px; text-align: left;" id="ten19">Nguyễn Võ Nhã Phi</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o19()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o19()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o19()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo19">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">20</div>
+                    <div style="width: 350px; text-align: left;" id="ten20">Huỳnh Thiên Phúc</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o20()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o20()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o20()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo20">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">21</div>
+                    <div style="width: 350px; text-align: left;" id="ten21">Võ Thị Hồng Phúc</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o21()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o21()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o21()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo21">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">22</div>
+                    <div style="width: 350px; text-align: left;" id="ten22">Lê Phú Quốc</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o22()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o22()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o22()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo22">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">23</div>
+                    <div style="width: 350px; text-align: left;" id="ten23">Bùi Thị Phương Quyên</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o23()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o23()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o23()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo23">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">24</div>
+                    <div style="width: 350px; text-align: left;" id="ten24">Đinh Thị Mỹ Quyên</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o24()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o24()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o24()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo24">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">25</div>
+                    <div style="width: 350px; text-align: left;" id="ten25">Lê Minh Tiến</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o25()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o25()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o25()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo25">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">26</div>
+                    <div style="width: 350px; text-align: left;" id="ten26">Lưu Minh Tới</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o26()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o26()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o26()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo26">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">27</div>
+                    <div style="width: 350px; text-align: left;" id="ten27">Trương Anh Tuấn</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o27()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o27()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o27()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo27">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">28</div>
+                    <div style="width: 350px; text-align: left;" id="ten28">Phạm Thị Thanh Tuyền</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o28()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o28()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o28()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo28">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">29</div>
+                    <div style="width: 350px; text-align: left;" id="ten29">Trần Thuận Thiên</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o29()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o29()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o29()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo29">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">30</div>
+                    <div style="width: 350px; text-align: left;" id="ten30">Đặng Quốc Thịnh</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o30()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o30()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o30()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo30">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">31</div>
+                    <div style="width: 350px; text-align: left;" id="ten31">Trần Thị Minh Thư</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o31()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o31()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o31()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo31">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">32</div>
+                    <div style="width: 350px; text-align: left;" id="ten32">Nguyễn Thị Huỳnh Thy</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o32()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o32()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o32()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo32">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">33</div>
+                    <div style="width: 350px; text-align: left;" id="ten33">Nguyễn Thị Bích Trâm</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o33()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o33()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o33()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo33">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">34</div>
+                    <div style="width: 350px; text-align: left;" id="ten34">Dương Lê Nhã Trân</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o34()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o34()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o34()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo34">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">35</div>
+                    <div style="width: 350px; text-align: left;" id="ten35">Nguyễn Ngọc Tường Vi</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o35()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o35()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o35()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo35">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">36</div>
+                    <div style="width: 350px; text-align: left;" id="ten36">Nguyễn Thị Thảo Vy</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o36()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o36()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o36()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo36">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">37</div>
+                    <div style="width: 350px; text-align: left;" id="ten37">Trần Lê Thảo Vy</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o37()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o37()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o37()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo37">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">38</div>
+                    <div style="width: 350px; text-align: left;" id="ten38">Phạm Chí Vỹ</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o38()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o38()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o38()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo38">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">39</div>
+                    <div style="width: 350px; text-align: left;" id="ten39">Đào Ngọc Như Ý</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o39()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o39()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o39()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo39">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">40</div>
+                    <div style="width: 350px; text-align: left;" id="ten40">Phạm Bạch Kim Yến</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o40()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o40()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o40()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo40">0</div>
+                </div>
+
+                <div class="khungten">
+                    <div style="margin: 0 20px 0 10px;" class="stt">41</div>
+                    <div style="width: 350px; text-align: left;" id="ten41">Phạm Thị Phi Yến</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="tru5o41()">-5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong5o41()">+5</div>
+                    <div style="margin: 0 50px 0 10px;" class="hoverPoiter" onclick="cong10o41()">+10</div>
+                    <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" class="diemO" id="diemo41">0</div>
+                </div>
+            </div>
+        </div>
+        <!--Thong ke-->
+        <div id="thongke">
+            <h2 style=" text-align: left; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; font-size: 30px; margin: 0; margin-left: 15px; border-bottom: solid 1px #ddd;">Thống kê</h2>
+            <div class="khungten">
+                <div style="margin: 0 20px 0 10px;" class="stt">#1</div>
+                <div style="width: 350px; text-align: left;" id="tenhang1">...</div>
+                <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" id="diemhang1"></div>
+            </div>
+
+            <div class="khungten">
+                <div style="margin: 0 20px 0 10px;" class="stt">#2</div>
+                <div style="width: 350px; text-align: left;" id="tenhang2">...</div>
+                <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" id="diemhang2"></div>
+            </div>
+
+            <div class="khungten">
+                <div style="margin: 0 20px 0 10px;" class="stt">#3</div>
+                <div style="width: 350px; text-align: left;" id="tenhang3">...</div>
+                <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" id="diemhang3"></div>
+            </div>
+
+            <div class="khungten">
+                <div style="margin: 0 20px 0 10px;" class="stt">#4</div>
+                <div style="width: 350px; text-align: left;" id="tenhang4">...</div>
+                <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" id="diemhang4"></div>
+            </div>
+
+            <div class="khungten">
+                <div style="margin: 0 20px 0 10px;" class="stt">#5</div>
+                <div style="width: 350px; text-align: left;" id="tenhang5">...</div>
+                <div style="width: 200px; height: 50px; border-radius: 5px; border: solid 1px white;" id="diemhang5"></div>
+            </div>
+        </div>
+    </div></center>
+</body>
+<script src="main.js"></script>
+</html>
